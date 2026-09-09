@@ -7,7 +7,7 @@ class CalculatorTests {
     @Test
     void testAdd() {
         Calculator calculator = new Calculator();
-        assertEquals(4, calculator.add(2, 3), "2 + 3 should equal 5");
+        assertEquals(5, calculator.add(2, 3), "2 + 3 should equal 5");
     }
 
     @Test
